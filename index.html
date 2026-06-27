@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.6.0/font/bootstrap-icons.css" integrity="sha384-7ynz3n3tAGNUYFZD3cWe5PDcE36xj85vyFkawcF6tIwxvIecqKvfwLiaFdizhPpN" crossorigin="anonymous">
+<link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+
+<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/mediaelement/4.2.16/mediaelementplayer.min.css" />
+
+    <title>Marianita y Tatu</title>
+
+</head>
+<body>
+<!--
+        <header >
+        <nav>
+            <div class="logo">
+
+               
+            </div>
+            <div class="hamburger" id="hamburger">
+                &#9776;
+            </div>
+            <ul class="nav-links" id="nav-links">
+                <li><a href="#">Home</a></li>
+                <li><a href="#section1">Detalles</a></li>
+                <li><a href="#section2">Información</a></li>
+                <li><a href="#section3">Redes</a></li>
+
+                <li><a href="#section4" class="rsvp-btn">RSVP</a></li>
+                <br>
+            </ul>
+        </nav>
+    </header>
+-->
+
+    <div class="background">
+        
+    </div>
+        <div class="audiodiv">
+            <audio id="myAudio" preload="auto">
+            <source src="./mehacesbien.mp3" type="audio/mpeg">
+            </audio>
+            <div id="playPauseBtn" class="play">
+                <img src="./img/notamusical.png" alt="Icono de música">
+            </div>
+        </div>
+
+    <p data-aos="fade-up" class="titulocontador">Faltan:</p>
+    <div class="contador">
+    
+        <div class="bloque">
+            <div data-aos="fade-up" id="dias" class="numero"></div>
+            <div data-aos="fade-up" class="etiqueta">Días</div>
+        </div>
+
+        <div class="bloque">
+            <div data-aos="fade-up" id="horas" class="numero"></div>
+            <div data-aos="fade-up" class="etiqueta">horas</div>
+        </div>
+
+        <div class="bloque">
+            <div data-aos="fade-up" id="minutos" class="numero"></div>
+            <div data-aos="fade-up" class="etiqueta">minutos</div>
+        </div>
+
+        <div class="bloque">
+            <div data-aos="fade-up" id="segundos" class="numero"></div>
+            <div data-aos="fade-up" class="etiqueta">segundos</div>
+        </div>
+    </div>
+
+
+<div class="datos-ubicacion">
+    <div>
+        <img data-aos="fade-down" src="./img-editable/icono1.png" alt="">
+    </div>
+  <div class="datos">
+      
+   <h3>Mi suerte la usé <br> en encontrarte a ti.</h3>
+  </div>
+</div>
+
+<div class="novios">
+    <img src="./img-editable/fotos1.png" alt="">
+    <div class="icono2">
+      <img data-aos="fade-down" src="./img-editable/icono2.png" alt="">
+    </div>
+    <div class="icono3">
+      <img  data-aos="fade-up" src="./img-editable/icono3.png" alt="">
+    </div>
+</div>
+
+ <div class="timeline">
+    <p class="timeline-title">Nuestra boda...</p>
+      <div class="iconos">
+            <div  class="iconos-block">
+                <img data-aos="fade-up"  src="./img-editable/tulugar.png" alt="icono">
+                <p class="titulostiming">11 de Septiembre - Civil</p>
+                <p data-aos="fade-up">11 AM - JUZGADO DE PAZ - PERÚ 792</p> <br>
+                <a class="boton" target="_blank" href="google.com/maps?sca_esv=4995decb4bdc4888&rlz=1C5BAPC_enAR1171AR1174&biw=1124&bih=769&output=search&q=Juzgado+de+Paz+Yerba+Buena&source=lnms&fbs=ABfTbFWKPTbNN-0TEkrxX4Km4-YQ9s5a-81nIHsKoNHlNHFaEJXiRtyswovLH2xI3FG4qBGnXwGuAaa2_GA8Wfjn253o-b47h466ohfgSlOfcPE1XB3CvlgYAsU9nOTecn1_M-qVMPBiX6tLly_Olmaya2faNCQaaQaq2KDrxlEocIIrKqB7IVrIh3ILDa3f-DNkvu2Cwe1LR1d30Szk6_UHjQCBILPnhg&entry=mc&ved=1t:200715&ictx=111">CÓMO LLEGAR</a>
+               
+            </div>
+            <div   class="iconos-block">
+                <img data-aos="fade-up"  src="./img-editable/copas.png" alt="icono">
+                <p class="titulostiming">Almuerzo Civil</p>
+                <p data-aos="fade-up" > SAAVEDRA LAMAS 250</p> <br>
+                <a class="boton" target="_blank" href="https://www.google.com/maps/dir//Saavedra+Lamas+250,+T4107ECF+Yerba+Buena,+Tucum%C3%A1n/@-26.8071181,-65.3114114,17z/data=!4m18!1m8!3m7!1s0x942242c2a56f6997:0x87d8b4a8d6b383c6!2sSaavedra+Lamas+250,+T4107ECF+Yerba+Buena,+Tucum%C3%A1n!3b1!8m2!3d-26.8071181!4d-65.3088365!16s%2Fg%2F11ytp869dz!4m8!1m0!1m5!1m1!1s0x942242c2a56f6997:0x87d8b4a8d6b383c6!2m2!1d-65.3088365!2d-26.8071181!3e0?entry=ttu&g_ep=EgoyMDI2MDYyNC4wIKXMDSoASAFQAw%3D%3D">CÓMO LLEGAR</a>
+             
+            </div>
+            <div  class="iconos-block">
+                <img data-aos="fade-up"  src="./img-editable/anillos.png" alt="icono">
+                <p class="titulostiming">19 de Septiembre - Fiesta </p>
+                <p data-aos="fade-up">17:30 CASA CROIX - AV. ACONQUIJA 3411 </p> <br>
+                <a class="boton" target="_blank" href="https://www.google.com/maps/dir//Casa+Croix,+El+Corte,+Av.+Aconquija+3411,+T4107+Yerba+Buena,+Tucum%C3%A1n/@-26.8085791,-65.3392523,14.42z/data=!4m17!1m7!3m6!1s0x9422433c26f41767:0xb93917be405365a3!2sCasa+Croix!8m2!3d-26.8073638!4d-65.3252582!16s%2Fg%2F11ql_60wy8!4m8!1m0!1m5!1m1!1s0x9422433c26f41767:0xb93917be405365a3!2m2!1d-65.3252582!2d-26.8073638!3e0?entry=ttu&g_ep=EgoyMDI2MDYyNC4wIKXMDSoASAFQAw%3D%3D">CÓMO LLEGAR</a>
+               
+            </div>
+            
+        </div>
+    </div>
+
+
+ <div id="section2" class="accordion">
+        <H3 data-aos="fade-up">Antes de que nos consultes...</H3>
+        <div data-aos="fade-up"  class="accordion-item">
+            <button class="accordion-header">¿CÓMO ME VISTO?</button>
+            <div class="accordion-content">
+                <p>EL DRESS CODE ES ELEGANTE SPORT - QUEREMOS QUE TE SIENTAS CÓMODO/A Y CANCHERO/A, PERO TAMBIÉN QUE SE NOTE QUE ES UN DÍA ESPECIAL. 📸 LAS FOTOS VAN A QUEDAR PARA SIEMPRE, ASÍ QUE: ELEGANTE Y CON ONDA, PERO SIN ESTRÉS. <br> EVITAR BLANCO Y VERDE.</p> 
+                <a class="boton2" target="_blank" href="https://drive.google.com/file/d/1K7F2Oh3W6Ge00d2gfe_8bqUY-ZFEvjw8/view?usp=sharing">INSPIRACIÓN</a>
+                <br><br>
+
+            </div>
+        </div>
+
+        <div data-aos="fade-up"  class="accordion-item">
+            <button class="accordion-header">¿QUÉ LES REGALO?</button>
+            <div class="accordion-content">
+                <p>EL MEJOR REGALO ES QUE ESTÉS CON NOSOTROS 💕 PERO SI QUERÉS COLABORAR PARA NUESTRA LUNA DE MIEL TE DEJAMOS NUESTROS DATOS:
+
+                </p>
+                <div class="gift-block">
+                    <div class="gift-box">
+                        <div class="boton2" onclick="copyToClipboard('0000003100010647500968')">CBU PESOS</div>
+                    </div> <br>
+                    <div class="gift-box">
+                        <div class="boton2" onclick="copyToClipboard('marianitaytatu')">ALIAS PESOS</div>
+                    </div>
+                    <br>
+                    <div class="gift-box">
+                        <div class="boton2" onclick="copyToClipboard('3220001888094476010010')">CBU USD</div>
+                    </div>
+                    <br>
+                    <div class="gift-box">
+                        <div class="boton2" onclick="copyToClipboard('vena.mecha.inclinaba')">ALIAS USD</div>
+                    </div>
+                    <br>
+            
+                </div>
+                <p>TITULAR DE LA CUENTA: Mariana Gepner <br>
+                Cuando transfieras, verás como destino al Banco Industrial (BIND).</p>
+                 <br>
+            </div>
+        </div>
+
+        <div data-aos="fade-up"  class="accordion-item">
+            <button class="accordion-header">¿PUEDO LLEVAR A LOS PEQUES?</button>
+            <div class="accordion-content">
+                <p>AMAMOS A LOS NIÑOS… ¡PERO ESTA VEZ PLANEAMOS UNA CELEBRACIÓN PENSADA PARA ADULTOS! QUEREMOS QUE TODOS PUEDAN RELAJARSE, BRINDAR Y BAILAR SIN INTERRUPCIONES. GRACIAS POR ENTENDER 💖  </p> 
+
+            </div>
+        </div>
+        
+        <div data-aos="fade-up"  class="accordion-item">
+            <button class="accordion-header">¿DÓNDE ESTACIONO?</button>
+            <div class="accordion-content">
+                <p>¡SABEMOS QUE NO QUERÉS ANDAR DANDO VUELTAS!
+EN EL SALÓN HAY ESPACIO PARA ESTACIONAR CON COMODIDAD.
+                </p> 
+
+            </div>
+        </div>
+        
+        <div data-aos="fade-up"  class="accordion-item">
+            <button class="accordion-header">¿QUÉ PASA SI TENGO MÁS DUDAS?</button>
+            <div class="accordion-content">
+                <p>CREEMOS QUE TODAS TUS DUDAS ESTÁN RESUELTAS PERO SI TENÉS MÁS CONSULTAS NO DUDES EN ESCRIBIRNOS A NOSOTROS O A NUESTROS FAMILIARES.</p> 
+
+            </div>
+        </div>
+    <br>
+        <div class="icono4">
+        <img data-aos="fade-down" src="./img-editable/icono4.png" alt="">
+        </div>
+        <div class="icono5">
+        <img  data-aos="fade-up" src="./img-editable/icono5.png" alt="">
+        </div>
+    </div>
+
+
+     <div class="forms">
+        
+
+        <form name="asistenciaform" method="POST" action="https://script.google.com/macros/s/AKfycbwBI8MJn9O_d1SYKqQJzWpgAkzmSTRc-jqoLsQV4BaPmb-Uz1JTq4F8uhB7hso_MJWmsw/exec" class="formulario">
+
+            <label data-aos="fade-up" class="formtitle">Sólo faltas vos, Venis a la fiesta?</label>
+
+            <div class="radio-group">
+                <label class="radio-option">
+                <input type="radio" name="ASISTENCIA" value="sí" required />
+                <span>Sí</span>
+                </label>
+                <label class="radio-option">
+                <input type="radio" name="ASISTENCIA" value="no" />
+                <span>No</span>
+                </label>
+            </div>
+
+            <input type="text" name="NOMBRE" placeholder="Nombre" required />
+            <input type="text" name="APELLIDO" placeholder="Apellido" required />
+            <input type="text" name="DIETA" placeholder="Vegano / vegetariano / celíaco / nada"  />
+            <textarea name="CANCION" placeholder="Recomendá una canción al DJ🎶"></textarea> 
+            <textarea name="MENSAJE" placeholder="Dejale un mensaje a los novios 🤍"></textarea> 
+
+
+            <button type="submit" class="boton">ENVIAR</button>
+        </form>
+
+        <p data-aos="fade-up">RECORDÁ COMPLETAR UN FORMULARIO POR PERSONA. <br> HACELO ANTES DEL 22 DE AGOSTO.</div>
+
+
+    <div class="novios">
+        <img src="./img-editable/fotos2.png" alt="">
+        <div class="icono6">
+            <img  data-aos="fade-up" src="./img-editable/icono6.png" alt="">
+        </div>
+    </div>
+
+    
+
+    <div class="end">
+        <img data-aos="fade-up" src="./img-editable/manosanillos.png" alt="">
+        <h2 data-aos="fade-up" >Marianita & Tatu</h2>
+        <p data-aos="fade-down">Te esperamos</p>
+    </div>
+
+    <footer>
+        <div class="contenido">
+            <div>
+            <img src="./img/logosiquiero.png" alt="icono si quiero">
+                <p>Hecho con &hearts; <br>
+                &#169 <b>Si,quiero!</b> - invitaciones inteligentes.
+                <br> Todos los derechos reservados.</p>
+            </div>
+            
+            <div class="contenido-list">
+                <ul>
+                    <li><a target="_blank" href="https://www.instagram.com/siquiero.arg/"><i class="bi bi-instagram"></i></a></li>
+                    <li><a target="_blank" href="https://www.facebook.com/Invitaciones-web-112187784608681"><i class="bi bi-facebook"></i></a></li>
+                    <li><a target="_blank" href="mailto:siquiero.invitaciones@gmail.com"><i class="bi bi-envelope"></i></a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script src="./countdwon.js"></script>
+<script src="./reproductor.js"></script>
+<script src="./form.js"></script>
+<script src="script.js"></script>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+  AOS.init();
+</script>
+
+ <script>
+  document.addEventListener("DOMContentLoaded", function () {
+    const audio = document.getElementById("myAudio");
+
+    // Escucha el primer scroll
+    const playOnScroll = () => {
+      audio.play().catch(e => {
+        console.warn("El navegador bloqueó la reproducción automática", e);
+      });
+      document.removeEventListener("scroll", playOnScroll); // Se ejecuta solo una vez
+    };
+
+    document.addEventListener("scroll", playOnScroll);
+  });
+</script>
+      <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mediaelement/4.2.16/mediaelement-and-player.min.js"></script>
+
+    <script>
+
+    function copyToClipboard(text) {
+       const tempInput = document.createElement("input");
+       document.body.appendChild(tempInput);
+       tempInput.value = text;
+       tempInput.select();
+       document.execCommand("copy");
+       document.body.removeChild(tempInput);
+       alert(`Copiaste los datos de cuenta "${text}" a tu portapapeles`);
+     }
+   </script>
+
+  <script>
+  document.addEventListener("DOMContentLoaded", function () {
+    const headers = document.querySelectorAll(".accordion-header");
+
+    headers.forEach((header) => {
+      header.addEventListener("click", function () {
+        const item = this.parentElement;
+        item.classList.toggle("active");
+
+        // Cierra otros ítems si querés que solo se abra uno a la vez:
+        headers.forEach((otherHeader) => {
+          const otherItem = otherHeader.parentElement;
+          if (otherItem !== item) {
+            otherItem.classList.remove("active");
+          }
+        });
+      });
+    });
+  });
+</script>
+     
+</body>
+</html>
