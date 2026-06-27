@@ -347,7 +347,7 @@ nav {
 /*FOTOS*/
 .novios {
     width: 100%;
-    height: auto;
+    height: 90VH;
     background-image: url(./img-editable/textura1.png);
     background-size: cover;
     background-position: center;
@@ -356,8 +356,7 @@ nav {
     display: flex;
 }
 .novios img {
-    width: 80%;
-    max-width: 500px;
+    width: 340px;
     height: auto;
     margin: auto;
     padding: auto;
@@ -873,6 +872,9 @@ footer p {
     }
  
 
+.novios {
+        height: 72vh;
+    }
 
     .timeline .iconos {
         flex-direction: column;
