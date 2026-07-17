@@ -448,7 +448,7 @@ nav {
 .iconos-block .titulostiming {
     padding: 0;
     margin: 0;
-    max-width: 320px;
+    max-width: 420px;
     color: var(--color-3);
     font-family: var(--font-principal);
     font-size: 2.1rem;
@@ -458,7 +458,7 @@ nav {
 .iconos-block p {
     padding: 0;
     margin: 0;
-    max-width: 320px;
+    max-width: 360px;
     color: var(--color-3);
     font-family: var(--font-secundaria);
     font-size: 1.6rem;
