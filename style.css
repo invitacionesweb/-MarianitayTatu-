@@ -295,9 +295,9 @@ nav {
 
     .datos-ubicacion {
        
-        padding: 20PX 0 60PX 0;
+        padding: 40PX 0 40PX 0;
         width: 100%;
-        height: auto;
+        height: 60vh;
         display: flex;
         background-color: var(--color-0);
         color:var(--color-3);
@@ -306,8 +306,14 @@ nav {
         align-items: center;
         justify-content: center;
         gap: 30px;
+       
     }
 
+     .datos-ubicacion .frase {
+       
+        width: 400px;
+        height: auto;
+     }
     .datos h3 {
     color: var(--color-3);
     font-family: var(--font-principal);
@@ -539,7 +545,9 @@ nav {
     padding: 0 15px;
     transition: max-height 0.3s ease, padding 0.3s ease;
 }
-
+.accordion-content IMG {
+    width: 60PX;
+}
 .accordion-content p {
     padding: 15px 0 ;
     margin: 0;
